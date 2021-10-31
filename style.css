@@ -1,0 +1,168 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    background-image: linear-gradient(to right, grey, pink, yellow);
+}
+
+
+.container{
+    margin-top: 30px;
+}
+
+.header{
+    height:200px;
+    background-image: url('img/pexels-donald-tong-55787.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+#date{
+    position: absolute;
+    bottom: 18px;
+    left: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.content{
+    
+    width: 60%;
+    margin: auto;
+    overflow: auto;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+
+.header{
+    width: 100%;
+}
+.content ul{
+    padding:0;
+    margin:0;
+    background-color: #FFF;
+}
+.item{
+    position: relative;
+    width:100%;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item i.complete{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+}
+.item i.complete:hover{
+    cursor: pointer;
+}
+.fa-check-circle{
+    color:#6eb200;
+}
+
+span{
+    position: relative;
+    font-size: 20px;
+    left:60px;
+    top:12px;
+    background-color: #FFF;
+    max-width:285px;
+}
+
+.item i.delete{
+    position: absolute;
+    font-size: 25px;
+    right:20px;
+    top:10px;
+}
+.item i.delete:hover{
+    color:red;
+    cursor: pointer;
+}
+
+.add-item{
+    position: relative;
+    width:100%;
+    height:40px;
+    background-color: #FFF;
+    padding: 10px;
+    
+}
+.add-item i{
+    position: absolute;
+    font-size: 40px;
+    color: #4162f6;
+}
+
+.add-item input{
+    width: 85%;
+    position: absolute;
+    left: 60px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+}
+
+@media (max-width:1000px){
+    .content{
+        width: 80%;
+    }
+
+    
+}
+
+@media (max-width:750px){
+    .content{
+        width: 99%;
+    }
+
+    #input{
+        font-size: 15px;
+    }
+
+    span{
+        font-size: 15px;
+    }
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
